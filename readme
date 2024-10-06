@@ -1,0 +1,15 @@
+Install Python3
+
+If you have discord installed, uninstall discord and then:
+
+windows: python.exe -m pip install nextcord
+
+linux: python3 pip uninstall discord
+            python3 pip installnextcord
+           
+For global slash commands you may need to upload
+your bot to a application or hosting server.
+
+This is a event bot. If you want commands bot..
+im sorry but make your owf commands lol jk
+see commands bot
