@@ -40,11 +40,11 @@ async def on_raw_reaction_add(payload):
     guild_id = payload.guild_id
     guild = bot.get_guild(guild_id)
 
-    if emoji == "🕸️" and message_id == 1267158526472622302:
+    if emoji == "🕸️" and message_id == "enter your $messageid":
         role = nextcord.utils.get(guild.roles, name = "Spidey Fan")
         await member.add_roles(role)
 
-    if emoji == "💜" and message_id == 1267158579547471984:
+    if emoji == "💜" and message_id =="enter your $messageid":
         role = nextcord.utils.get(guild.roles, name = "Venom Fan")
         await member.add_roles(role)
 
@@ -57,11 +57,11 @@ async def on_raw_reaction_remove(payload):
     guild = bot.get_guild(guild_id)
     member = guild.get_member(user_id)
 
-    if emoji == "🕸️" and message_id == 1267026121363554314:
+    if emoji == "🕸️" and message_id =="enter your $messageid":
         role = nextcord.utils.get(guild.roles, name = "Spidey Fan")
         await member.remove_roles(role)
 
-    if emoji == "💜" and message_id == 1267026215751909437:
+    if emoji == "💜" and message_id == "enter your $messageid":
         role = nextcord.utils.get(guild.roles, name = "Venom Fan")
         await member.remove_roles(role)
 
