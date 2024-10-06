@@ -66,4 +66,4 @@ async def on_raw_reaction_remove(payload):
         await member.remove_roles(role)
 
     
-bot.run("")
+bot.run("Enter your bot token")
