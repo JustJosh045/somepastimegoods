@@ -1,6 +1,6 @@
 Install Python3
 
-If you have discord installed, uninstall discord and then:
+If you have discord.py installed, uninstall discord.py and then:
 
 windows: python.exe -m pip install nextcord
 
