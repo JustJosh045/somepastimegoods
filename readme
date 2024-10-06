@@ -5,7 +5,7 @@ If you have discord.py installed, uninstall discord.py and then:
 windows: python.exe -m pip install nextcord
 
 linux: python3 pip uninstall discord
-            python3 pip installnextcord
+            python3 pip install nextcord
            
 For global slash commands you may need to upload
 your bot to a application or hosting server.
